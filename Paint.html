@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Painter</title>
+</head>
+	<style type="text/css">
+		*{
+			padding : 0;
+			margin : 0;
+			font-family: sans-serif;
+		}
+		body {
+			background-color : #111118;
+			min-height: 100vh;  
+		}
+		nav {
+			position: fixed;
+			z-index : 1;
+			bottom: 30px;
+			left : 30px;
+		}
+		nav a {
+			display: inline-block;
+			width : 60px;
+			height : 60px;
+			border-radius: 25px;
+			margin : 0 10px 0 0;
+		}
+	</style>
+<body>
+	<canvas></canvas>
+	<nav>
+		<a href="#" style="background-color:#659d8d"></a>
+		<a href="#" style="background-color:#daad86"></a>
+		<a href="#" style="background-color:#bc46c9"></a>
+		<a href="#" style="background-color:#d79922"></a>
+	</nav>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
